@@ -19,3 +19,20 @@ print(3+4)
 
 # DO NOT REMOVE: Mark this question as completed 
 q2.check()
+
+Question 3
+Use the next code cell to:
+- Define a variable `births_per_min` and set it to 250.  (There are on average 250 babies born each minute.)
+- Define a variable `births_per_day` that contains the average number of babies born each day.  (To set the value of this variable, you should use `births_per_min` and some of the variables from the previous code cell.)
+​
+Remember you can always get a hint if you need it!
+ TODO: Set the value of the births_per_min variable
+births_per_min = 250
+hours_per_day = 24
+mins_per_hour = 60
+
+# TODO: Set the value of the births_per_day variable
+births_per_day = births_per_min * mins_per_hour * hours_per_day
+
+# DO NOT REMOVE: Check your answer
+q4.check()
